@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge Programa One</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Codificador</h1>
+  </header>
+  
+  <main>
+    <div class="container">
+      <textarea id="texto-input" class="inputs" placeholder="Insira sua frase aqui..."></textarea>
+      <textarea id="output"></textarea>
+      <p>Apenas letras minúsculas e sem acento</p>
+    </div>
+    <button class="botao_criptografar" onclick="criptografar()" id="botao-criptografar">Criptografar</button>
+    <button class="botao_descriptografar" onclick="descriptografar()" id="botao-descriptografar">Descriptografar</button>
+    <button class="botao_copiar" onclick="copiarTexto()" id="botao-copiar">Copiar</button>
+  </main>
+    
+  <footer>
+      <div>
+        <a href="https://www.linkedin.com/in/rodrigo-santos-303a24268/" target="_blank">
+          <button class="botao_linkedin"><img src="img/linkedin.png" alt="logotipo-do-linkedin"> Linkedin</button>
+        </a>
+        <a href="https://github.com/rodrigosantos-eng" target="_blank">
+          <button class="botao_github"><img src="img/logotipo-do-github.png" alt="logotipo-do-github"> Github</button>
+        </a>
+      </div>   
+  </footer>
+
+      
+
+    
+</body>
+
+<script src="script.js"></script>
